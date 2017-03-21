@@ -10,7 +10,7 @@
 <body>
     <form id="form1" runat="server">
     <div id="kalender">
-    <asp:Calendar ID="kalVerjaardag" runat="server" OnSelectionChanged="Calendar1_SelectionChanged" VisibleDate="1995-01-01"></asp:Calendar>
+    <asp:Calendar ID="kalVerjaardag" runat="server" OnSelectionChanged="Calendar1_SelectionChanged" VisibleDate="1995-01-01" SelectedDate="1995-01-01"></asp:Calendar>
         <br />
         U heeft de onderstaande datum geselecteerd:<br />
         <br />
