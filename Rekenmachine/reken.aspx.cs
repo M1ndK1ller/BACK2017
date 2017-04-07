@@ -48,4 +48,9 @@ public partial class reken : System.Web.UI.Page
     {
         
     }
+
+    protected void txtGetal2_TextChanged(object sender, EventArgs e)
+    {
+
+    }
 }

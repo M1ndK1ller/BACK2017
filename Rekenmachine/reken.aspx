@@ -22,7 +22,7 @@
     </div>
         <asp:Label ID="lblGetal2" runat="server" Text="Getal 2"></asp:Label>
 &nbsp;&nbsp;&nbsp;
-        <asp:TextBox ID="txtGetal2" runat="server"></asp:TextBox>
+        <asp:TextBox ID="txtGetal2" runat="server" OnTextChanged="txtGetal2_TextChanged"></asp:TextBox>
         <asp:Button ID="btnAftrek" runat="server" OnClick="btnAftrek_Click" Text="Aftrekken" Width="74px" />
         <asp:RequiredFieldValidator ID="rfvGetal2" runat="server" ControlToValidate="txtGetal2" ErrorMessage="vul getal 2 in!">*</asp:RequiredFieldValidator>
         <asp:CompareValidator ID="CompareValidator1" runat="server" ControlToCompare="txtGetal1" ControlToValidate="txtGetal2" ErrorMessage="CompareValidator">getal 1 en getal 2 moet het zelfde zijn</asp:CompareValidator>
